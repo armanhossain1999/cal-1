@@ -1,0 +1,57 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+	 
+     <style>
+	.dd{
+	width: 450px;
+	height: 200px;
+	border: 10px solid rgb(103, 99, 99);
+	border-radius:20px;
+	border-style: outset;
+	padding: 20px;
+	margin: 15px auto;
+	background-image: url(keith-misner-h0Vxgz5tyXA-unsplash.jpg);
+	background-size: 700px 300px;
+	background-repeat: no-repeat;
+
+	}
+	.manue{	
+		position: relative;
+		text-align: right;
+		color: aqua;
+	}
+	.e{
+		
+		text-align: center;
+		color:rgb(255, 255, 255);
+		margin-bottom: 20px;
+		font-size: 40px;
+	}
+	
+	
+	</style>
+</head>
+<body>
+
+	<div class="dd">
+		<div class="e">Calculator </div>
+		<input type="text" id="n1" size="10">
+		<select id="op">
+			<option value="+" selected> +</option>
+			<option value="-"> -</option>
+         <option value="*"> *</option>
+         <option value="/"> / </option>
+	 	</select>
+		<input type="text" id="n2" size="10">
+		<button id="b" > = </button>
+		<span id="r" class="result"></span>
+		
+	</div>
+	<script src="javascript/script.js"></script>
+</body>
+</html>
